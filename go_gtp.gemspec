@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "go_gtp"
-  s.version     = "0.0.5.alpha"
+  s.version     = "0.0.6.alpha"
   s.authors     = ["James Edward Gray II", "Ryan Bates"]
   s.email       = ["james@graysoftinc.com"]
   s.homepage    = "http://github.com/JEG2/go_gtp"
@@ -15,8 +15,4 @@ Gem::Specification.new do |s|
   s.require_path = "lib"
 
   s.add_development_dependency 'rspec'
-
-  s.rubyforge_project = s.name
-  s.required_ruby_version = "~> 1.9.2"
-  s.required_rubygems_version = ">= 1.3.6"
 end
